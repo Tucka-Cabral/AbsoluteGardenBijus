@@ -19,7 +19,7 @@ li, a{
   flex-direction: column;
   justify-content: center;
   background-color: var(--branco);
-  padding: 1em 0 1em 0;
+  padding: 1em 0 0.5em 0;
   
 }
 

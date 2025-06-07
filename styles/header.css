@@ -1,11 +1,11 @@
 
 .cabeçalho{
-    background-color: var(--cor-primaria);
+  background-color: var(--cor-primaria);
 
 }
 
 .navbar {
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .navbar-brand {
@@ -18,7 +18,6 @@
 .navbar-nav .nav-link {
   font-size: 20px;  
   color: var(--cor-texto-secundaria);
-
   transition: color 0.3s ease;
 }
 
@@ -36,6 +35,5 @@
 
   .navbar img {
     max-height: 70px;
-
-}
+  }
 }
