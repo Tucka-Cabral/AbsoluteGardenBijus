@@ -1,0 +1,41 @@
+
+.cabeçalho{
+    background-color: var(--cor-primaria);
+
+}
+
+.navbar {
+      flex-wrap: wrap;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+.navbar-nav .nav-link {
+  font-size: 20px;  
+  color: var(--cor-texto-secundaria);
+
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--cor-secundaria);
+}
+
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .navbar img {
+    max-height: 70px;
+
+}
+}

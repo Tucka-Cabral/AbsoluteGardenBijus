@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Garden Bijuterias</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <nav class="navbar navbar-expand-md bg-transparent" id="menu-categorias">
+            <div class="container">
+                <!-- Botão Hamburguer à esquerda -->
+                <button class="navbar-toggler position-relative z-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Logo central no mobile e à esquerda no desktop -->
+                <a class="navbar-brand mx-auto mx-md-0" href="index.html">
+                <img src="img/Logo_Bijus.svg" alt="Logo Absolute Garden" id="menu">
+                <!-- <h1 class="d-none d-md-block">Absolute Garden Bijuterias</h1> -->
+                </a>
+
+                <!-- Menu colapsável -->
+                <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link menu-link" href="#" data-categoria="pulseiras">Pulseiras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link" href="#" data-categoria="chaveiros">Chaveiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link" href="#" data-categoria="pulseiras-celular">Pulseira de Celular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-link" href="#" data-categoria="todas">Todas</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/Pulseira Margaridas_Carrossel.svg"
+                            alt="Pulseira Margaridas com Miçangas "></div>
+                    <div class="swiper-slide"><img src="img/Chaveiro Familia+Boneca_Carrossel.svg"
+                            alt="Chaveiro Família + Boneca"></div>
+                    <div class="swiper-slide"><img src="img/Conjunto Pulseira e Brinco Lilas_Carrossel.svg"
+                            alt="Conjunto Pulseira e Brinco na cor lilás"></div>
+                    <div class="swiper-slide"><img src="img/Pulseira Macrame com Perolas_Carrossel.svg" alt="Pulseira Macramê com Pérolas"></div>
+                    <div class="swiper-slide"><img src="img/Chaveiro Simples com Letras_Carrossel.svg" alt="Chaveiro com Letras"></div>
+                    <div class="swiper-slide"><img src="img/Pulseira Miçanga e Perolas Rosa_Carrossel.svg" alt="Pulseira de Miçanga e Pérolas na cor rosa"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </div>
+    </section>
+ 
+    <section class="produtos" id="nossas-mercadorias">
+
+        <div class="produtos__titulo__topo">
+            <h2 class="produtos__titulo__titulo">Nossas Bijuterias</h2>
+            <div class="topo__menu">
+                <a class="topo__menu__a" href="#menu">Voltar ao topo
+                    <img src="img/seta_cima.png" alt="Seta para cima" width="15x15">
+                </a>
+            </div>
+        </div>
+        
+        <div class="produtos__container">
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Macrame com Perolas_Carrossel.svg" alt="Pulseira de Macramê com Pérolas" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira de Macramê com Pérolas</h3>
+                <p class="produto__preco">R$ 25,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="chaveiros">
+                <img src="img/Chaveiro Familia+Boneca.svg" alt="Chaveiro escrito Família" class="produto__imagem">
+                <h3 class="produto__nome">Chaveiro Palavra + Boneca</h3>
+                <p class="produto__preco">R$ 20,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Macrame Diversos1_Carrossel.svg" alt="Pulseira de Macramê Simples" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira de Macramê Simples</h3>
+                <p class="produto__preco">R$ 10,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="chaveiros">
+                <img src="img/Chaveiro Simples com Letras_Carrossel.svg" alt="Chaveiro com Palavra" class="produto__imagem">
+                <h3 class="produto__nome">Chaveiro Simples com Palavra</h3>
+                <p class="produto__preco">R$ 15,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Macrame Diversos2_Carrossel.svg" alt="Pulseira de Macramê Simples" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira de Macramê Simples Azul c/Cinza</h3>
+                <p class="produto__preco">R$ 10,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Macrame Diversos3_Carrossel.svg" alt="Pulseira de Macramê Meio Nó" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira de Macramê Meio Nó</h3>
+                <p class="produto__preco">R$ 15,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Macrame Diversos4_Carrossel.svg" alt="Pulseira de Macramê Simples" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira de Macramê Simples Azul</h3>
+                <p class="produto__preco">R$ 10,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Flor Miçangas_Carrossel.svg" alt="Pulseira de Flor em Miçangas" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira de Flor em Miçangas</h3>
+                <p class="produto__preco">R$ 15,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Conjunto Pulseira e Brinco Lilas_Carrossel.svg" alt="Conjunto de Pulseira e Brinco na cor lilás" class="produto__imagem">
+                <h3 class="produto__nome">Conjunto de Pulseira e Brinco lilás</h3>
+                <p class="produto__preco">R$ 25,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Miçanga e Perolas Azul_ Carrossel.svg" alt="Pulseira Miçanga Azul e Perolas" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira Miçanga Azul e Perolas</h3>
+                <p class="produto__preco">R$ 22,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Miçanga e Perolas Dourada_Carrossel.svg" alt="Pulseira Miçanga Dourada e Perolas" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira Miçanga Dourada e Perolas</h3>
+                <p class="produto__preco">R$ 22,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Miçanga e Perolas Rosa_Carrossel.svg" alt="Pulseira Miçanga Rosa e Perolas" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira Miçanga Rosa e Perolas</h3>
+                <p class="produto__preco">R$ 22,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Margaridas_Carrossel.svg" alt="Pulseira Margaridas em Miçanga" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira Margaridas em Miçanga</h3>
+                <p class="produto__preco">R$ 25,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Bolas Coloridas e Palavras.svg" alt="Pulseira com bolas coloridas e palavras" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira com bolas coloridas e palavras</h3>
+                <p class="produto__preco">R$ 20,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Bolas de Ceramica e Perolas.svg" alt="Pulseira com bolas de Cerâmica e Pérolas" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira com bolas de Cerâmica e Pérolas</h3>
+                <p class="produto__preco">R$ 25,00</p>
+            </div>            
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Bolas de Ceramica.svg" alt="Pulseira com bolas de Cerâmica" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira com bolas de Cerâmica</h3>
+                <p class="produto__preco">R$ 25,00</p>
+            </div>
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Laranja Sonho.svg" alt="Pulseira laranja com palavra" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira laranja com palavra</h3>
+                <p class="produto__preco">R$ 20,00</p>
+            </div> 
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Nautico.svg" alt="Pulseira Náutico" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira Náutico</h3>
+                <p class="produto__preco">R$ 20,00</p>
+            </div> 
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseira Macrame com miçangas_Carrossel.svg" alt="Pulseira Macramê com miçangas" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira Macramê com Miçangas</h3>
+                <p class="produto__preco">R$ 22,00</p>
+            </div> 
+
+            <div class="produto card-produto" data-categoria="pulseiras">
+                <img src="img/Pulseiras Bolinhas com detalhe.svg" alt="Pulseiras de bolinhas com detalhe" class="produto__imagem">
+                <h3 class="produto__nome">Pulseiras Bolinhas com detalhe</h3>
+                <p class="produto__preco">R$ 15,00</p>
+            </div> 
+
+            <div class="produto card-produto" data-categoria="pulseiras-celular">
+                <img src="img/StrapPhone Lilas_Carrossel.svg" alt="Pulseiras para carregar celular Lilás" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira StrapPhone Lilás</h3>
+                <p class="produto__preco">R$ 20,00</p>
+            </div> 
+
+            <div class="produto card-produto" data-categoria="pulseiras-celular">
+                <img src="img/StrapPhone Vermelho_Carrossel.svg" alt="Pulseiras para carregar celular Vermelha" class="produto__imagem">
+                <h3 class="produto__nome">Pulseira StrapPhone Vermelha</h3>
+                <p class="produto__preco">R$ 15,00</p>
+            </div> 
+
+            <div class="produto card-produto" data-categoria="chaveiros">
+                <img src="img/Chaveiro com letras (Mosquetao).svg" alt="Chaveiro com Palavra" class="produto__imagem">
+                <h3 class="produto__nome">Chaveiro Simples com Palavra</h3>
+                <p class="produto__preco">R$ 20,00</p>
+            </div>
+
+        </div>
+            
+            <div class="topo__menu">
+                <a class="topo__menu__a" href="#menu">Voltar ao topo
+                    <img src="img/seta_cima.png" alt="Seta para cima" width="15x15">
+                </a>
+            </div>
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+        <div class="rodape__bloco">
+            <a class="rodape__bloco__github" href="https://github.com/Tucka-Cabral" target="_blank">
+                <img class="github" src="img/github-mark-white 1.svg" alt="GitHub">
+            </a>
+            <a class="rodape__bloco__linkedin" href="https://www.linkedin.com/in/thais-cabral1" target="_blank">
+                <img class="linkedin" src="img/InBug-White 1.svg" alt="LinkedIn">
+            </a>
+        </div>
+        
+        <p class="rodapé__mensagem">...é sobre a jornada!</p>
+    </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="scripts/filtro.js"></script>
+  <script src="scripts/carrossel.js"></script>
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+

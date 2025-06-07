@@ -1,0 +1,28 @@
+hr {
+    margin: 0;
+}
+
+.rodapé {
+    background-color: var(--cor-primaria);
+    padding: 1em;
+}
+
+    .rodapé {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rodape__bloco{
+        display: flex;
+        justify-content: center;
+        padding: 0.5em;
+        gap: 1em;
+    }
+
+    .rodapé__mensagem{
+        display: flex;
+        justify-content: center;
+        color: var(--cor-texto-secundaria);
+    }
+
