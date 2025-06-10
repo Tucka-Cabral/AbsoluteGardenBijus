@@ -90,8 +90,10 @@
 }
 
 .swiper {
-    width: 60%;
+  width: 100%;
+  height: auto;
 }
+
 
 .swiper-button-prev,
 .swiper-button-next {
