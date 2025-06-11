@@ -1,10 +1,10 @@
-
-const swiper = new Swiper('.swiper', {
-    spaceBetween: 10,
-    slidesPerView: 1,
+document.addEventListener('DOMContentLoaded', () => {
+  const swiper = new Swiper('.swiper', {
+    spaceBetween: 5,
+    slidesPerView: 1, // valor inicial
+    loop: true,
     pagination: {
       el: '.swiper-pagination',
-      type: 'bullets',
       clickable: true,
     },
     navigation: {
@@ -12,8 +12,15 @@ const swiper = new Swiper('.swiper', {
       prevEl: '.swiper-button-prev',
     },
     breakpoints: {
-      576: { slidesPerView: 1 },
-      768: { slidesPerView: 2 },
-      1024: { slidesPerView: 3 }
+      428: {
+        slidesPerView: 1
+      },
+      1024: {
+        slidesPerView: 2
+      },
+      1728: {
+        slidesPerView: 3
+      }
     }
   });
+});
