@@ -1,57 +1,56 @@
-
-
-li, a{
+li,
+a {
   text-decoration: none;
   list-style-type: none;
-  
+
 }
 
 .produtos {
- 
+
   background-color: var(--cor-de-fundo);
   text-align: center;
   min-height: 340px;
-  
+
 }
 
-.produtos__titulo__topo{
+.produtos__titulo__topo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: var(--branco);
   padding: 1em 0 0.5em 0;
-  
+
 }
 
 .produtos__titulo__titulo {
-    color: var(--cor-texto-primaria);
-    background-color: var(--branco);
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 20px;
+  color: var(--cor-texto-primaria);
+  background-color: var(--branco);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
-.produtos__all{
+.produtos__all {
   text-decoration: none;
   list-style-type: none;
   text-transform: uppercase;
   text-align: left;
   margin-left: 0.5em;
-  color: var(--cor-texto-primaria);  
+  color: var(--cor-texto-primaria);
 
 }
 
-.topo__menu{
+.topo__menu {
   text-decoration: none;
   list-style-type: none;
   text-transform: uppercase;
   text-align: right;
   margin-left: 0.5em;
-  color: var(--cor-texto-primaria);  
+  color: var(--cor-texto-primaria);
 }
 
-.topo__menu__a{
-  color: var(--cor-texto-primaria);  
+.topo__menu__a {
+  color: var(--cor-texto-primaria);
 }
 
 .produtos__container {
@@ -68,7 +67,7 @@ li, a{
   border-radius: 8px;
   width: 250px;
   padding: 1rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
 }
 

@@ -7,22 +7,21 @@ hr {
     padding: 1em;
 }
 
-    .rodapé {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+.rodapé {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-    .rodape__bloco{
-        display: flex;
-        justify-content: center;
-        padding: 1em;
-        gap: 1em;
-    }
+.rodape__bloco {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    gap: 1em;
+}
 
-    .rodapé__mensagem{
-        display: flex;
-        justify-content: center;
-        color: var(--cor-texto-secundaria);
-    }
-
+.rodapé__mensagem {
+    display: flex;
+    justify-content: center;
+    color: var(--cor-texto-secundaria);
+}

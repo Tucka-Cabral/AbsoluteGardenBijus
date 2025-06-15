@@ -1,13 +1,18 @@
+.navbar-brand {
+  font-weight: bold;
+}
 
-.navbar-brand { font-weight: bold; };
+;
 
 .navbar {
-  background-color: var(--roxo) !important; /* cor de fundo do menu */
+  background-color: var(--roxo) !important;
+  /* cor de fundo do menu */
 }
 
 .navbar-brand {
   font-size: 32px;
-  color: #db7093 !important; /* cor do nome/logo */
+  color: #db7093 !important;
+  /* cor do nome/logo */
 }
 
 .nav-link {

@@ -6,23 +6,23 @@
 
 :root {
 
-    --cor-primaria:#6A5384;
-    --cor-secundaria:#BCB0D5;
-    --cor-de-fundo: #E7E3F1;
-    --cor-texto-primaria: #FC9013;
-    --cor-texto-secundaria: #FFD180;
+  --cor-primaria: #6A5384;
+  --cor-secundaria: #BCB0D5;
+  --cor-de-fundo: #E7E3F1;
+  --cor-texto-primaria: #FC9013;
+  --cor-texto-secundaria: #FFD180;
 
-    --laranja-escuro:#C55809;
-    --branco:#ffffff;
-    --preto: #000000;
-    --cinza: #474646;
-    --cinza-claro: #858585;
-    
+  --laranja-escuro: #C55809;
+  --branco: #ffffff;
+  --preto: #000000;
+  --cinza: #474646;
+  --cinza-claro: #858585;
 
-    --fonte-principal: "Poppins";
-    --fonte-secundario: "Josefin Sans";
 
-    --espacamento: 1rem;
+  --fonte-principal: "Poppins";
+  --fonte-secundario: "Josefin Sans";
+
+  --espacamento: 1rem;
 
 }
 
@@ -31,8 +31,8 @@ html {
 }
 
 body {
-    background-color: var(--cor-de-fundo);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400;
+  background-color: var(--cor-de-fundo);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
 }
