@@ -29,7 +29,6 @@ Ao fazer download você encontrará os seguintes diretórios e arquivos.
   ```text
   AbsoluteGardenBijus/
   ├── scripts/
-  │   ├── carrossel.js
   │   └── filtro.js
   ├── styles/
       ├── cards.css
