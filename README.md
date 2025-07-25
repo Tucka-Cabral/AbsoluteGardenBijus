@@ -1,27 +1,22 @@
 <p align="center">
   <a href="https://tucka-cabral.github.io/AbsoluteGardenBijus/index.html">
-    <img src="/img/Logo_Bijus.svg" alt="Logo Absolute Garden Bijuterias" width="350" height="350">
+    <img src="/img/Logo_Bijus.svg" alt="Logo Absolute Garden Bijuterias" width="250">
   </a>
 </p>
 
+<h1 align="center">Absolute Garden Bijuterias 💎</h1>
 
+Projeto pessoal desenvolvido como parte da minha formação em **Desenvolvimento Front-End**, com o objetivo de praticar HTML, CSS, JavaScript e também apresentar as bijuterias artesanais que produzo com carinho.
 
-## AbsoluteGardenBijus
+---
 
+## 🚧 Status
 
-O projeto teve como objetivo treinar meus aprendizado para Desenvolvedora Front-End e como segunda motivação apresentar as bijuterias que faço para venda, até que vire uma Super-DFE (Desenvolvedora FE) :wink:
+<img alt="Status projeto" src="https://img.shields.io/badge/Em%20constante%20evolução-%236A5384?style=flat">
 
+---
 
-## Status
-
-
-<img alt="Status projeto" src="https://img.shields.io/badge/Pronto%20por%20hora%2C%20mas...%20-%20Em%20constante%20melhoria-%236A5384?style=flat">
-
-
-## Arquivos do projeto
-
-
-Ao fazer download você encontrará os seguintes diretórios e arquivos.
+## 📁 Estrutura de pastas
 
 <details>
   <summary>AbsoluteGardenBijus</summary>
@@ -29,7 +24,6 @@ Ao fazer download você encontrará os seguintes diretórios e arquivos.
   ```text
   AbsoluteGardenBijus/
   ├── scripts/
-  │   ├── carrossel.js
   │   └── filtro.js
   ├── styles/
       ├── cards.css
@@ -96,12 +90,23 @@ Ao fazer download você encontrará os seguintes diretórios e arquivos.
 
 
 
-## Tecnologias utilizadas
 
-<img alt="Static Badge" src="https://img.shields.io/badge/CSS-%23000000?logo=css"> <img alt="HTML" src="https://img.shields.io/badge/HTML-%23000000?logo=html5"> <img alt="Static Badge" src="https://img.shields.io/badge/JavaScript-%23000000?logo=javascript"> <img alt="Static Badge" src="https://img.shields.io/badge/Bootstrap-%23000000?logo=bootstrap">
+---
 
+## 🛠️ Tecnologias utilizadas
 
+- ![HTML](https://img.shields.io/badge/HTML-%23000000?logo=html5)
+- ![CSS](https://img.shields.io/badge/CSS-%23000000?logo=css)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-%23000000?logo=javascript)
+- ![Bootstrap](https://img.shields.io/badge/Bootstrap-%23000000?logo=bootstrap)
 
-## Obrigada!
+---
+
+## 📌 Link do projeto
+Acesse: [https://tucka-cabral.github.io/AbsoluteGardenBijus/](https://tucka-cabral.github.io/AbsoluteGardenBijus/)
+
+---
+
+## 🙋‍♀️ Obrigada por visitar!
 
 
