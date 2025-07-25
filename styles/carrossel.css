@@ -10,7 +10,6 @@
 .carousel-inner {
   width: 60%;
   margin-left: 20%;
-  margin-right: 20%;
 }
 
 .carousel-control-prev {
@@ -51,13 +50,12 @@
 @media screen and (min-width: 992px) {
 
   .carousel-inner {
-    width: 30%;
-    margin-left: 35%;
-    margin-right: 35%;
+    width: 300px;
+    margin-left: 40%;
   }
 
   .carousel-control-prev {
-    margin-left: 30%
+    margin-left: 35%
   }
 
   .carousel-control-prev {
@@ -65,7 +63,7 @@
   }
 
   .carousel-control-next {
-    margin-right: 30%
+    margin-right: 35%
   }
 
   .carousel-control-next {
